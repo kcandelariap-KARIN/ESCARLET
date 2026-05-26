@@ -1,0 +1,81 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+   body{
+    background-color: aliceblue;
+    
+   }
+    nav{
+    display: flex;
+    background-color: aquamarine;
+    height: 60px;
+    background-position: 90%;
+    background-size: 40px;
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    margin-right: 5px;
+    font-size: 20px;
+    color: black;
+}
+   .container-form{
+    margin-top: 100px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 20px rgb(127, 122, 122); 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    min-height: 50px;
+    color: black;
+    margin-left: 600px;
+   
+   }
+   form h2{
+    font-size: 30px;
+    color: black;
+    margin-bottom: 50%;
+    
+
+   }
+
+   input{
+    padding: 17px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #303030;
+    margin-bottom: 15PX;
+    outline: none;
+    color: #ffffff;
+    font-size: 16px;
+    min-height: 50;
+
+   }
+   .btn{
+    color: black;
+    background-color: rgb(218, 92, 92);
+    border: 2px solid #edf0f0;
+    cursor: pointer;
+   }
+   .btn:hover{
+    background-color: rgb(196, 124, 124);
+   }
+
+   
+.piedepagina{
+    background-color: aquamarine;
+    height: 60px;
+    margin-top: 188px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+
+}
